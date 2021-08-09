@@ -1,0 +1,172 @@
+.card-list {
+  .navigation-box {
+    width: 100%;
+    height: 65px;
+    border-bottom: 1px solid #dfdfdf;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 34px;
+    box-sizing: border-box;
+    .navigation-menu {
+      display: flex;
+      .nav-item {
+        padding-right: 5px;
+        margin-right: 20px;
+        position: relative;
+        cursor: pointer;
+        color: #9d9ea4;
+        height: 100%;
+        font-size: 16px;
+        font-weight: 600;
+        &:last-child {
+          padding-right: 0px;
+        }
+        &::before {
+          content: '';
+          position: absolute;
+          bottom: -2px;
+          left: 0px;
+          height: 3px;
+          width: 0%;
+          background-color: #fe980f;
+        }
+        &.active {
+          color: #fe980f;
+          &::before {
+            width: 100%;
+            transition: all 0.6s;
+          }
+        }
+        &.dropdown {
+          display: flex;
+          padding-right: 5px;
+          margin-right: 10px;
+          &.active {
+            color: #fe980f;
+            &::before {
+              width: 100%;
+              transition: all 0.6s;
+            }
+          }
+          // p {
+          //   margin-right: 5px;
+          // }
+          .nav-item-dropdown {
+            height: 320px;
+            min-width: 680px;
+            display: flex;
+            padding: 30px 30px;
+            position: absolute;
+            min-height: 100px;
+            background-color: #ffffff;
+            z-index: 3;
+            box-shadow: 0px 0px 5px 0px #dfdfdf;
+            opacity: 0;
+            visibility: hidden;
+            .agile_inner_drop_nav_info {
+              width: 100%;
+              display: flex;
+
+              a {
+                padding-right: 10px;
+                flex: 1;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                position: relative;
+                overflow: hidden;
+                &::before {
+                  background: rgba(0, 0, 0, 0.1);
+                  position: absolute;
+                  right: 0;
+                  top: 0;
+                  width: 0;
+                  height: 0;
+                  transition: all 0.5s ease-out 0s;
+                  z-index: 99;
+                  content: '';
+                }
+                &::after {
+                  background: rgba(0, 0, 0, 0.1);
+                  position: absolute;
+                  bottom: 0;
+                  left: 0;
+                  width: 0;
+                  height: 0;
+                  transition: all 0.5s ease-out 0s;
+                  z-index: 99;
+                  content: '';
+                }
+                &:hover {
+                  &::before {
+                    width: 100%;
+                    height: 100%;
+                  }
+                  &::after {
+                    width: 100%;
+                    height: 100%;
+                  }
+                }
+                img {
+                  min-width: 100%;
+                  min-height: 100%;
+                  width: auto;
+                  height: auto;
+                }
+              }
+              .dropdown-test {
+                flex: 1;
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+              }
+            }
+            .list-dropdown {
+              display: flex;
+              width: 33.33%;
+              height: 50px;
+              justify-content: center;
+              align-items: center;
+            }
+          }
+          &:hover {
+            .nav-item-dropdown {
+              opacity: 1;
+              visibility: visible;
+              top: 29px;
+              transition: all 0.6s;
+              color: #9d9ea4;
+              .list-dropdown {
+                &:hover {
+                  transition: all 0.3s;
+                  color: #fe980f;
+                }
+              }
+            }
+          }
+        }
+        svg {
+          margin-top: 2px;
+        }
+      }
+    }
+    .navigation-view {
+      display: flex;
+      svg {
+        cursor: pointer;
+        margin-right: 10px;
+      }
+      // .view {
+      //   height: 23px;
+      //   cursor: pointer;
+      //   &.view-collection {
+      //     margin-right: 10px;
+      //   }
+      // }
+    }
+  }
+}
+
+.fa-angle-down {
+  padding-left: 0px;
+}

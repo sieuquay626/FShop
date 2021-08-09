@@ -1,0 +1,48 @@
+.ReactModal__Overlay {
+  z-index: map-get(
+    (
+      toast: 100,
+      modal: 80,
+      basket: 60,
+      navigation: 55,
+      filter: 40,
+      search: 30,
+      content: 10
+    ),
+    'modal'
+  );
+}
+
+.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+.ReactModal__Content--before-close {
+  transform: translate(-50%, -50%) scale(0) !important;
+}
+
+.modal-close-button {
+  position: absolute;
+  top: 1rem;
+  right: 1rem;
+  font-size: 2rem;
+  padding: 0;
+  border: none;
+  background: none;
+
+  i {
+    color: lighten(#303030, 10%);
+  }
+
+  &:hover {
+    i {
+      color: #303030;
+    }
+  }
+}
+
+.ReactModal__Content {
+  @media (max-width: 30rem) {
+    width: 90%;
+  }
+}

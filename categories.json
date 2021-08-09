@@ -1,0 +1,100 @@
+[
+  {
+    "_id": "60b310e25c9c392ecc3007f0",
+    "name": "jeans",
+    "createdAt": "2021-05-30T04:13:22.551Z",
+    "updatedAt": "2021-05-30T04:13:22.551Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b311285c9c392ecc3007f2",
+    "name": "shirt & shorts",
+    "createdAt": "2021-05-30T04:14:32.004Z",
+    "updatedAt": "2021-05-30T04:14:32.004Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3113c5c9c392ecc3007f3",
+    "name": "suits",
+    "createdAt": "2021-05-30T04:14:52.940Z",
+    "updatedAt": "2021-05-30T04:14:52.940Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3114c5c9c392ecc3007f4",
+    "name": "sunglasses",
+    "createdAt": "2021-05-30T04:15:08.178Z",
+    "updatedAt": "2021-05-30T04:15:08.178Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b311585c9c392ecc3007f5",
+    "name": "wristwatch",
+    "createdAt": "2021-05-30T04:15:20.452Z",
+    "updatedAt": "2021-05-30T04:15:20.452Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b311635c9c392ecc3007f6",
+    "name": "cap & hats",
+    "createdAt": "2021-05-30T04:15:31.646Z",
+    "updatedAt": "2021-05-30T04:15:31.646Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3117b5c9c392ecc3007f7",
+    "name": "dress",
+    "createdAt": "2021-05-30T04:15:55.055Z",
+    "updatedAt": "2021-05-30T04:15:55.055Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b311835c9c392ecc3007f8",
+    "name": "skirts",
+    "createdAt": "2021-05-30T04:16:03.851Z",
+    "updatedAt": "2021-05-30T04:16:03.851Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b311935c9c392ecc3007f9",
+    "name": "jacket & coats",
+    "createdAt": "2021-05-30T04:16:19.717Z",
+    "updatedAt": "2021-05-30T04:16:19.717Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b311af5c9c392ecc3007fa",
+    "name": "sweaters",
+    "createdAt": "2021-05-30T04:16:47.840Z",
+    "updatedAt": "2021-05-30T04:16:47.840Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b312395c9c392ecc3007fb",
+    "name": "headbands",
+    "createdAt": "2021-05-30T04:19:05.648Z",
+    "updatedAt": "2021-05-30T04:19:05.648Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b312425c9c392ecc3007fc",
+    "name": "gloves",
+    "createdAt": "2021-05-30T04:19:14.167Z",
+    "updatedAt": "2021-05-30T04:19:14.167Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3124a5c9c392ecc3007fd",
+    "name": "umbrella",
+    "createdAt": "2021-05-30T04:19:22.435Z",
+    "updatedAt": "2021-05-30T04:19:22.435Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3126d5c9c392ecc3007fe",
+    "name": "keychains & lanyards",
+    "createdAt": "2021-05-30T04:19:57.373Z",
+    "updatedAt": "2021-05-30T04:19:57.373Z",
+    "__v": 0
+  }
+]

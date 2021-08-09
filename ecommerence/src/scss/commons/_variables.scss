@@ -1,0 +1,65 @@
+// Color - Layout
+$LAYOUT_AMBER: #fe980f;
+$LAYOUT_PINK: #ff0079;
+$LAYOUT_GRAY: #d8d8d8;
+$LAYOUT_WHITE_DARKER: #f8f8f8;
+$LAYOUT_WHITE: #ffffff;
+$LAYOUT_TRANSPARENT: transparent;
+$LAYOUT_GREY: #85868f;
+// Color - Text
+$TEXT_AMBER: #fe980f;
+$TEXT_PINK: #ff278d;
+$TEXT_BLUE_BLACK: #494c62;
+$TEXT_GRAY_DARKER: #636366;
+$TEXT_GRAY: #85868f;
+$TEXT_GRAY_LIGHTER: #bdbec5;
+$TEXT_WHITE: #ffffff;
+$LINE_NAV_GREY: #dfdfdf;
+$TEXT_GREY_LIGHTER: #9d9ea4;
+$TEXT_GREY_NEAR: #babbc3;
+//Header
+$HEADER_HEIGHT: 10px;
+$HEADER_BACKGROUND: transparent;
+$HEADER_PADDING_HORIZONTAL: 130px;
+$HEADER_PADDING_VERTICAL: 28px;
+
+//Footer
+$FOOTER_HEIGHT: 100px;
+$FOOTER_BACKGROUND: transparent;
+$FOOTER_PADDING_HORIZONTAL: 130px;
+$FOOTER_PADDING_VERTICAL: 28px;
+
+//Content
+$CONTENT_PADDING_HORIZONTAL: 130px;
+$CONTENT_PADDING_VERTICAL: 28px;
+
+////******************* FONT *******************////
+$TYPOGRAPHY: 'Nunito Sans', sans-serif;
+
+%TYPO_BOLD {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+%TYPO_REGULAR {
+  font-family: 'Nunito Sans', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+//Bold
+%FONT_BOLD_15px {
+  font-size: 15px;
+  @extend %TYPO_BOLD;
+}
+
+//Regular
+%FONT_REGULAR_15px {
+  font-size: 15px;
+  @extend %TYPO_REGULAR;
+}
+%FONT_REGULAR_13px {
+  font-size: 13px;
+  @extend %TYPO_REGULAR;
+}

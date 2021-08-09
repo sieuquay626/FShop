@@ -1,0 +1,7 @@
+{
+  "API_HOST": "https://api.themoviedb.org",
+  "API_VERSION": 3,
+  "API_KEY": "381b209dfab7b8cffe74f29f5147a738",
+  "SIZE_BANNER": 3,
+  "IMAGE_URL": "https://image.tmdb.org/t/p/original/"
+}

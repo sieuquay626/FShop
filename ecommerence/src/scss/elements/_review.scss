@@ -1,0 +1,74 @@
+.review-card {
+  border: 2px solid #ccc;
+  padding: 10px;
+  margin: 30px 10px;
+  border-radius: 5px;
+
+  .review-time {
+    margin-left: 3px;
+    margin-right: 5px;
+    font-size: 14px;
+    color: #818181;
+    margin-bottom: 10px;
+  }
+  .ratings {
+    margin-top: 8px;
+    svg {
+      width: 20px;
+    }
+  }
+  p {
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 5px 10px;
+    padding-bottom: 30px;
+  }
+  .nav_review {
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 25px;
+    span {
+      margin-top: 5px;
+      margin-left: 3px;
+    }
+    .liked {
+      color: #fe4c50;
+      &:hover {
+        color: #fe4c50 !important;
+      }
+    }
+    svg {
+      cursor: pointer;
+      &:hover {
+        color: #3581af;
+      }
+    }
+    .reply {
+      font-size: 18px;
+      color: black;
+      margin-left: 20px;
+      cursor: pointer;
+      &:hover {
+        color: #7367f0;
+      }
+    }
+  }
+  .reply_review {
+    position: relative;
+    padding: 10px 20px;
+    margin: 15px 20px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+  }
+}
+.delete-reply {
+  position: absolute;
+  position: absolute;
+  top: 0.75rem;
+  right: 1rem;
+  cursor: pointer;
+  &:hover {
+    color: red;
+  }
+}

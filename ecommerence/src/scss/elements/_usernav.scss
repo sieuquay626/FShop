@@ -1,0 +1,83 @@
+.user-nav {
+  margin-left: 1.6rem;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding: 0 1.2rem;
+  border-bottom: 2px solid transparent;
+  display: flex;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+    // border-bottom: 2px solid $black;
+  }
+}
+
+.user-nav-img-wrapper {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-left: 10px;
+  position: relative;
+  background: #c5c5c5;
+
+  &:after {
+    content: attr('data-alt');
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    color: #fff;
+  }
+}
+
+.user-nav-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.user-nav-sub {
+  width: 150px;
+  height: auto;
+  background: #fff;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  box-shadow: 0 5px 12px rgba(0, 0, 0, 0.1);
+  display: none;
+}
+
+.user-nav-sub-link {
+  font-size: 1.2rem;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  padding: 1.2rem 1.6rem;
+  text-align: left;
+
+  &:hover {
+    background: #f9f9f9;
+    text-decoration: none;
+  }
+
+  &:first-child {
+    border-bottom: 0.5px solid #f9f9f9;
+  }
+}
+
+.user-sub-open {
+  border-bottom: 2px solid #000;
+}
+
+.user-sub-open .user-caret {
+  transform: rotate(180deg);
+}
+
+.user-sub-open > .user-nav-sub {
+  display: block;
+}

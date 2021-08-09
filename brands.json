@@ -1,0 +1,66 @@
+[
+  {
+    "_id": "60b395427349c52008c4b5da",
+    "name": "adidas",
+    "photo": "http://res.cloudinary.com/dbdb4punq/image/upload/v1622381147/test/adassctplwjqn8tujk7s.svg",
+    "createdAt": "2021-05-30T13:38:10.120Z",
+    "updatedAt": "2021-05-30T13:38:10.120Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b395ca7349c52008c4b5db",
+    "name": "puma",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382008/test/20200110-BrandLogos_Puma_bl0wet.svg",
+    "createdAt": "2021-05-30T13:40:26.630Z",
+    "updatedAt": "2021-05-30T13:40:26.630Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3960b7349c52008c4b5dc",
+    "name": "new balance",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382065/test/20200110-BrandLogos_NewBalance_bu2fbu.svg",
+    "createdAt": "2021-05-30T13:41:31.887Z",
+    "updatedAt": "2021-05-30T13:41:31.887Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b396357349c52008c4b5dd",
+    "name": "nike",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382119/test/20200110-BrandLogos_Nike_njycl6.svg",
+    "createdAt": "2021-05-30T13:42:13.547Z",
+    "updatedAt": "2021-05-30T13:42:13.547Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b396ac7349c52008c4b5de",
+    "name": "under armour",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382234/test/20200110-BrandLogos_UnderArmour_aq0bjr.svg",
+    "createdAt": "2021-05-30T13:44:12.285Z",
+    "updatedAt": "2021-05-30T13:44:12.285Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b397007349c52008c4b5df",
+    "name": "asics",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382304/test/20200110-BrandLogos_Asics_gpovsi.svg",
+    "createdAt": "2021-05-30T13:45:36.734Z",
+    "updatedAt": "2021-05-30T13:45:36.734Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3973a7349c52008c4b5e0",
+    "name": "rawlings",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382380/test/rawlings-logo-black_vbg9je.svg",
+    "createdAt": "2021-05-30T13:46:34.018Z",
+    "updatedAt": "2021-05-30T13:46:34.018Z",
+    "__v": 0
+  },
+  {
+    "_id": "60b3976b7349c52008c4b5e1",
+    "name": "timberland",
+    "photo": "https://res.cloudinary.com/dbdb4punq/image/upload/v1622382427/test/20200110-BrandLogos_Timberland_rqbfnu.svg",
+    "createdAt": "2021-05-30T13:47:23.522Z",
+    "updatedAt": "2021-05-30T13:47:23.522Z",
+    "__v": 0
+  }
+]

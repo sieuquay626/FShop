@@ -1,0 +1,24 @@
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 500;
+  font-style: normal;
+  src: url('./Helvetica/Helvetica.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 800;
+  font-style: normal;
+  src: url('./Helvetica/Helvetica-Bold.ttf');
+}
+
+@font-face {
+  font-family: 'Helvetica';
+  font-weight: 300;
+  font-style: normal;
+  src: url('./Helvetica/helvetica-light-587ebe5a59211.ttf');
+}
+
+body {
+  font-family: 'Helvetica','Roboto' ,sans-serif;
+}

@@ -1,0 +1,25 @@
+.btn{
+  min-height: 10px;
+  padding: 10px 20px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: $LAYOUT_AMBER;
+  border: none;
+  &, p {
+    color: $TEXT_WHITE;
+  }
+  &.btn-o {
+    background-color: $LAYOUT_TRANSPARENT;
+  }
+  &.btn-border-white {
+    border: 1px solid $TEXT_WHITE;
+  }
+  &.btn-primary {
+    background-color: $LAYOUT_AMBER;
+    &, p {
+      color: $TEXT_WHITE;
+    }
+  }
+}

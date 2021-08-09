@@ -1,0 +1,116 @@
+.button {
+  background: #101010;
+  padding: 1.6rem;
+  border: 1px solid #101010;
+  color: #fff;
+  font-weight: bold;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  &:hover {
+    cursor: pointer;
+    // background: lighten(#101010, 10%);
+    // border: 1px solid lighten(#101010 10%);
+    text-decoration: none;
+  }
+}
+
+.button:disabled {
+  opacity: 0.5;
+
+  &:hover {
+    cursor: not-allowed;
+    // background: none;
+  }
+}
+
+.button-link {
+  @extend .button;
+  background: none;
+  color: #000;
+  border: none;
+
+  &:hover {
+    background: none;
+    border: none;
+  }
+}
+
+.button-muted {
+  @extend .button;
+  background: #f2f2f2;
+  color: lighten(#4a4a4a, 20%);
+  border: 1px solid #e1e1e1;
+
+  &:hover {
+    background: #f9f9f9;
+    border: 1px solid #c5c5c5;
+  }
+}
+
+.button-block {
+  display: block;
+  width: 100%;
+}
+
+.button-border {
+  background: transparent;
+  border: 1px solid #101010;
+  color: #101010;
+
+  &:hover {
+    background: #e1e1e1;
+    border: 1px solid #101010;
+  }
+}
+
+.button-danger {
+  background: red;
+  color: #fff;
+
+  &:hover {
+    background: darken(red, 10%);
+  }
+}
+
+.button-border-gray {
+  border: 1px solid #e1e1e1;
+  color: #4a4a4a;
+
+  &:hover {
+    border: 1px solid #e1e1e1;
+    background: #e1e1e1;
+  }
+}
+
+.button-small {
+  font-size: 1.2rem;
+  padding: 10px;
+}
+.button-icon {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  text-align: center;
+
+  & * {
+    font-size: inherit;
+  }
+}
+.btn-addtocart {
+  width: 100%;
+  letter-spacing: 0.05em;
+  color: #000;
+  font-size: 0.875rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  font-weight: 700;
+  border-width: 2px;
+  &:hover {
+    color: #fff;
+    border-color: transparent;
+    background-color: #000;
+  }
+}

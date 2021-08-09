@@ -1,0 +1,30 @@
+.categoryList {
+  flex: 4;
+}
+
+.title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.action-admin-category {
+  display: flex;
+  margin-bottom:20px
+}
+.btn-create-category {
+  padding: 8px 20px;
+  background-color: #e1e1e1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 20px;
+  cursor: pointer;
+  margin-right: 20px;
+  h2 {
+    margin-bottom: 0px;
+    margin-left: 3px;
+  }
+}

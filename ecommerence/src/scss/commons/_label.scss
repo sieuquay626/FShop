@@ -1,0 +1,28 @@
+label {
+  font-size: 1.2rem;
+  font-weight: bold;
+  border: 1px solid #c5c5c5;
+  padding: 1.2rem 1.6rem;
+  display: inline-block;
+  position: relative;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.label-input {
+  border: none;
+  background: none;
+  padding: 10px 5px;
+  color: #696868;
+  border: none;
+
+  &:hover {
+    background: none;
+  }
+}
+
+.label-error {
+  color: rgb(235, 43, 43) !important;
+}

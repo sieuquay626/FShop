@@ -1,0 +1,55 @@
+.product-display-gird {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+a {
+  color: black;
+}
+
+a:hover {
+  text-decoration: none;
+  color: black;
+}
+.product-applied-filters {
+  padding: 1.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pill-wrapper {
+  text-align: center;
+
+  @media (max-width: 30rem) {
+    display: inline-block;
+  }
+}
+.pill {
+  background: #e1e1e1;
+  padding: 5px 20px;
+  padding-right: 2.5rem;
+  border-radius: 1.6rem;
+  display: inline-block;
+  margin: 10px 5px;
+  position: relative;
+  text-align: center;
+  text-transform: capitalize;
+  &:hover {
+    background: #c5c5c5;
+  }
+}
+
+.pill-remove {
+  position: absolute;
+  right: 10px;
+  top: 6px;
+  bottom: 0;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}

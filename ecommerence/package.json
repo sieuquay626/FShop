@@ -1,0 +1,82 @@
+{
+  "name": "ecommerence",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@fortawesome/fontawesome-svg-core": "^1.2.35",
+    "@fortawesome/free-solid-svg-icons": "^5.15.3",
+    "@fortawesome/react-fontawesome": "^0.1.14",
+    "@material-ui/core": "^4.11.4",
+    "@material-ui/data-grid": "^4.0.0-alpha.30",
+    "@material-ui/icons": "^4.11.2",
+    "@material-ui/lab": "^4.0.0-alpha.58",
+    "@ramonak/react-progress-bar": "^3.1.0",
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "antd": "^4.16.2",
+    "aos": "^2.3.4",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "formik": "^2.2.9",
+    "history": "^5.0.0",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-sass": "^4.14.1",
+    "pure-react-carousel": "^1.27.6",
+    "react": "^17.0.2",
+    "react-compound-slider": "^3.3.1",
+    "react-dom": "^17.0.2",
+    "react-feather": "^2.0.9",
+    "react-horizontal-scrolling-menu": "^0.7.10",
+    "react-icons": "^4.2.0",
+    "react-loading-skeleton": "^2.2.0",
+    "react-modal": "^3.14.3",
+    "react-paypal-express-checkout": "^1.0.5",
+    "react-phone-input-2": "^2.14.0",
+    "react-redux": "^7.2.4",
+    "react-responsive-carousel": "^3.2.18",
+    "react-router": "^5.2.0",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "^4.0.3",
+    "react-simple-chatbot": "^0.6.1",
+    "react-toastify": "^7.0.4",
+    "recharts": "^2.0.9",
+    "redux": "^4.1.0",
+    "redux-logger": "^3.0.6",
+    "redux-persist": "^6.0.0",
+    "redux-saga": "^1.1.3",
+    "sass-loader": "^11.1.0",
+    "socket.io-client": "^4.1.1",
+    "styled-components": "^5.3.0",
+    "styled-theme": "^0.3.3",
+    "web-vitals": "^2.0.0",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,27 @@
+.search-box {
+  height: 35px;
+  width: 40%;
+  position: relative;
+  margin-right: 15px;
+  input {
+    width: 100%;
+    border-radius: 20px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    padding-left: 35px;
+    height: 100%;
+    &:focus {
+      outline: 0;
+      outline-style: none;
+      outline-width: 0;
+    }
+  }
+  svg {
+    width: 20px;
+    position: absolute;
+    color: black;
+    left: 10px;
+    top: 5px;
+  }
+}

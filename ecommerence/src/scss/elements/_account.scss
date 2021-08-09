@@ -1,0 +1,274 @@
+.user-tab {
+  width: 1000px;
+  height: 100%;
+  margin: 0 auto;
+  margin-top: 3rem;
+  background: #fff;
+  border: 1px solid #e1e1e1;
+
+  box-shadow: 0 0.5em 1em -0.125em rgba(10, 10, 10, 0.1),
+    0 0 0 1px rgba(10, 10, 10, 0.02);
+
+  @media (max-width: 30rem) {
+    width: 100%;
+    margin-top: 6rem;
+  }
+}
+
+.user-tab-content {
+  padding: 1.6rem;
+  height: 100%;
+
+  @media (max-width: 30rem) {
+    padding: 0;
+  }
+}
+
+.user-tab-nav {
+  background: #f2f2f2;
+  border-bottom: 1px solid #e1e1e1;
+  padding: 0 3.2rem;
+
+  @media (max-width: 30rem) {
+    padding: 0;
+  }
+}
+
+.user-tab-menu {
+  padding: 0;
+  margin: 0;
+  position: relative;
+  bottom: -1px;
+}
+
+.user-tab-item {
+  list-style-type: none;
+  color: #818181;
+  padding: 15px;
+  border-bottom: 1px solid transparent;
+  display: inline-block;
+  transition: all 0.3s ease;
+
+  &:hover {
+    cursor: pointer;
+    background: #f9f9f9;
+  }
+}
+
+.user-tab-active {
+  color: #4a4a4a;
+  font-weight: bold;
+  border-bottom: 1px solid #fff;
+  background: #fff;
+
+  &:hover {
+    cursor: default;
+    background: #fff;
+  }
+}
+
+.user-profile {
+  display: flex;
+  margin: auto;
+
+  @media (max-width: 30rem) {
+    width: 100%;
+  }
+}
+
+.user-profile-block {
+  // width: 600px;
+  width: 100%;
+  height: auto;
+  // padding: $m-size;
+
+  // @include mobile {
+  //   padding: 0;
+  // }
+}
+
+.user-profile-banner-wrapper {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background: lighten(#e1e1e1, 3%);
+  overflow: hidden;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.user-profile-banner {
+  width: 100%;
+  height: 150px;
+  position: relative;
+
+  @media (max-width: 30rem) {
+    height: 100px;
+  }
+}
+.user-profile-changepassword {
+  display: flex;
+  padding: 4.5rem 1.6rem 3.2rem;
+  // line-height: 2.5;
+}
+.field {
+  margin-bottom: 1.5rem;
+  font-size: 16px;
+  color: #000;
+}
+
+.user-profile-banner-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.user-profile-avatar-wrapper {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  position: absolute;
+  left: 1.6rem;
+  bottom: 30%;
+  position: relative;
+  background: #e1e1e1;
+  overflow: hidden;
+  // display: flex;
+  // justify-content: center;
+  // align-items: center;
+}
+
+.user-profile-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.user-profile-edit {
+  position: absolute;
+  right: 1.2rem;
+  bottom: -12%;
+}
+
+.user-profile-details {
+  padding: 4.5rem 1.6rem 3.2rem;
+  display: flex;
+  & > div {
+    margin-bottom: 1.2rem;
+  }
+}
+.user-profile-edit-details {
+  padding: 4.5rem 1.6rem 3.2rem;
+  & > div {
+    margin-bottom: 1.2rem;
+  }
+}
+
+.account-profile {
+  flex: 3;
+  h2 {
+    margin-bottom: 20px;
+  }
+  .field {
+    line-height: 1.5rem;
+    color: #818181;
+  }
+}
+.change-password {
+  flex: 4;
+}
+.btn-change-password {
+  padding: 0.75rem !important;
+}
+.user-profile-name {
+  text-transform: capitalize;
+  font-size: 1.5rem;
+  color: black;
+}
+
+.content-account {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+  padding: 0 100px 0px 100px;
+  display: flex;
+}
+.field {
+  span {
+    font-size: 14px;
+  }
+}
+
+.loading-wrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.user-profile-banner-wrapper,
+.user-profile-avatar-wrapper {
+  overflow: visible;
+}
+
+.anticon-loading {
+  width: 15px;
+  height: 15px;
+}
+
+.edit-button {
+  padding: 1.2rem;
+  position: absolute;
+  bottom: -10px;
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none !important;
+  background: #000 !important;
+  color: #fff;
+}
+
+.edit-avatar-button {
+  right: 0;
+}
+
+.edit-banner-button {
+  right: 2rem;
+}
+
+.edit-user-action {
+  height: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.title-change-password {
+  color: #000;
+  font-size: 20px;
+  font-weight: 600;
+}

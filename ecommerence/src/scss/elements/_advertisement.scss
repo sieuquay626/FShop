@@ -1,0 +1,72 @@
+.deal_ofthe_week {
+  width: 100%;
+  margin-top: 41px;
+  background: #f2f2f2;
+  .advertisement {
+    display: flex;
+    align-items: center;
+    margin: 0 15px;
+    position: relative;
+    .deal_ofthe_week_col {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      .deal_ofthe_week_content {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+}
+
+.section_title {
+  color: #282828;
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+  font-size: 2rem;
+  text-align: center;
+  position: relative;
+  &::after {
+    display: block;
+    position: absolute;
+    top: calc(100% + 13px);
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 5px;
+    background: #fe4c50;
+    content: '';
+  }
+}
+.timer {
+  margin-top: 66px;
+  li {
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    background: #ffffff;
+    margin-right: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .timer_num {
+      font-size: 48px;
+      font-weight: 600;
+      color: #fe4c50;
+      margin-top: 10px;
+    }
+    .timer_unit {
+      margin-top: 12px;
+      font-size: 16px;
+      font-weight: 500;
+      color: #51545f;
+    }
+  }
+}

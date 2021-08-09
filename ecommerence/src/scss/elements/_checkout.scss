@@ -1,0 +1,245 @@
+.checkout {
+  width: 100%;
+  animation: slide-up 0.5s ease;
+  .checkout-header {
+    display: flex;
+    justify-content: center;
+    position: sticky;
+    top: 6rem;
+    background: #f9f9f9;
+    padding: 1rem 0;
+    margin-bottom: 3rem;
+    z-index: 1;
+    .checkout-header-menu {
+      width: 50%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0;
+      margin: auto;
+      position: relative;
+      &::before {
+        content: '';
+        position: absolute;
+        top: 20px;
+        left: 0;
+        right: 0;
+        margin: auto;
+        width: 85%;
+        height: 3px;
+        background: hsla(0, 0%, 88.2%, 0.5);
+      }
+      .checkout-header-list {
+        display: flex;
+        justify-content: center;
+        .checkout-header-item,
+        .checkout-header-step {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .checkout-header-item {
+          width: auto;
+          flex-direction: column;
+          z-index: 1;
+          .checkout-header-step {
+            margin: 0;
+            padding: 1.4rem;
+            background: #e1e1e1;
+            border-radius: 50%;
+            width: 0px;
+            height: 0px;
+            color: #818181;
+          }
+          .checkout-header-subtitle {
+            color: #b6b6b6;
+            margin-top: 0.25rem;
+            margin-bottom: 0;
+            text-align: center;
+            font-size: 14px;
+          }
+        }
+      }
+      .is-active-step .checkout-header-step {
+        background: #000 !important;
+        color: #fff !important;
+      }
+      .is-active-step .checkout-header-subtitle {
+        color: #000 !important;
+      }
+    }
+  }
+}
+
+.checkout-step-1 {
+  margin-left: 300px;
+  margin-right: 300px;
+  span {
+    display: block;
+  }
+}
+
+.basket-total {
+  text-align: right;
+  padding: 10px 15px;
+  .basket-total-amount {
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: black;
+  }
+}
+.checkout-shipping-action {
+  height: 50px;
+  margin-top: 30px;
+  padding-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+.scroll-checkout {
+  top: 60px !important;
+}
+.title-checkout {
+  font-family: 'Helvetica';
+  font-size: 30px;
+  font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  color: black;
+}
+
+.checkout-step-2 {
+  margin-left: 300px;
+  margin-right: 300px;
+  span {
+    display: block;
+  }
+}
+.checkout-fieldset {
+  display: flex;
+  align-items: center;
+  & > div {
+    margin-bottom: 1.2rem;
+  }
+}
+.checkout-field {
+  width: 100%;
+  margin: 0 1.2rem;
+}
+.country {
+  display: flex;
+  align-items: center;
+}
+.checkout-checkbox-field {
+  margin: 5px 0;
+  padding: 1.6rem;
+  border: 1px solid #e1e1e1;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.international-shipping {
+  font-size: 16px;
+  flex-grow: 1;
+  color: black;
+}
+.price-shipping {
+  font-size: 16px;
+  font-weight: 700;
+  color: black;
+}
+.checkout-total {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding-right: 2rem;
+  .text-subtle {
+    margin-bottom: 10px;
+  }
+
+  span {
+    padding-right: 1.2rem;
+    text-align: right;
+    display: block;
+  }
+  .basket-total-amount {
+    color: black;
+    font-size: 20px;
+    margin: 20px 0;
+  }
+}
+
+.checkout-step-3 {
+  margin-left: 300px;
+  margin-right: 300px;
+  span {
+    display: block;
+  }
+}
+.checkout-fieldset-collapse {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  // height: 97px;
+  overflow: hidden;
+  transition: all 0.5s ease;
+  opacity: 0.6;
+}
+.is-selected-payment {
+  opacity: 1;
+}
+.infor-payment {
+  flex: 1;
+  margin-left: 15px;
+}
+.text-payment {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Nunito Sans';
+}
+.paypal {
+  flex-grow: 1;
+  flex-direction: column;
+  font-size: 16px;
+  align-items: flex-start !important;
+  margin-left: 15px;
+}
+.name-gateway {
+  color: #000;
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.name-description {
+  font-size: 14px;
+}
+.payment-img {
+  width: 48px;
+  height: 32px;
+  background: url('https://res.cloudinary.com/dbdb4punq/image/upload/v1623414602/test/creditcards_lg71kg.jpg');
+  background-size: 300px 200px;
+  filter: grayscale(1);
+  border-radius: 2px;
+}
+.payment-img-visa {
+  background-position: -55px -15px;
+}
+
+.payment-img-mastercard {
+  background-position: 103px -15px;
+}
+
+.payment-img-paypal {
+  background-position: 103px 115px;
+}
+
+.payment-cod {
+  width: 48px;
+  height: 32px;
+}

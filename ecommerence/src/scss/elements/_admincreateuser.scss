@@ -1,0 +1,37 @@
+.admin-profile-create-details {
+  display: flex;
+}
+.main-info-create-user {
+  flex: 1;
+  padding: 1rem 1.5rem;
+}
+.sub-info-create-user {
+  flex: 1;
+  padding: 1rem 1.5rem;
+}
+
+.react-tel-input {
+  input {
+    height: 44px;
+  }
+}
+
+.newUser {
+  flex: 4;
+}
+.newUserTitle {
+  font-size: 2rem;
+}
+
+.newUserForm {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.newUserItem {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  margin-right: 20px;
+}

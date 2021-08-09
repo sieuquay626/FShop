@@ -1,0 +1,38 @@
+.list-recomment {
+  background-color: #eeee;
+  padding-bottom: 10px;
+  height: auto;
+  margin: 15px;
+  border: 1px solid #d4d4d4;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+  .re-infor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5px 20px;
+    .re-title {
+      font-size: 21px;
+      font-family: 'Nunito Sans', 'Roboto', sans-serif;
+      font-weight: bold;
+    }
+    .re-viewAll {
+      color: #7367f0;
+      cursor: pointer;
+    }
+  }
+  .re-list-product {
+    margin-bottom: 5px;
+    padding-left: 0;
+  }
+}
+
+.scroll-menu-arrow {
+  cursor: pointer;
+}
+
+.scroll-menu-arrow--disabled {
+  visibility: hidden;
+}
+.menu-wrapper--inner {
+  margin-left: -105px;
+}
